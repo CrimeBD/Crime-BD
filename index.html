@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Crime BD — অপরাধ প্রতিরোধ, আইনি সহায়তা এবং সরকারি অভিযোগ জানানোর নির্ভরযোগ্য পথনির্দেশ।">
+<meta name="theme-color" content="#102a43">
+<title>Crime BD — অপরাধ প্রতিরোধ ও আইনি সহায়তা</title>
+<style>
+:root{--navy:#102a43;--blue:#176b87;--teal:#18a999;--gold:#f4b942;--ink:#182b3a;--muted:#627586;--paper:#f4f8fb;--white:#fff;--line:#dce6ed;--red:#a52828}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Bengali","Hind Siliguri",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+a{color:#075b83}a:focus,button:focus,input:focus,textarea:focus,select:focus{outline:3px solid #f4b942;outline-offset:2px}
+.topbar{background:#0a1d2d;color:#eaf5fb;padding:8px 5%;font-size:.88rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{background:var(--navy);color:white;padding:18px 5%;position:sticky;top:0;z-index:10;box-shadow:0 5px 20px #0a1d2d22}
+.headrow{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:white}.logo{width:48px;height:48px;border-radius:14px;background:var(--teal);display:grid;place-items:center;font-weight:900;font-size:1.2rem;color:#062d35}.brand strong{display:block;font-size:1.2rem;letter-spacing:.2px}.brand small{display:block;color:#c6dce8;font-size:.78rem}
+nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}nav a{color:#eaf5fb;text-decoration:none;font-size:.92rem}nav a:hover{color:var(--gold)}
+.menuBtn{display:none;background:transparent;border:1px solid #91adbd;color:white;padding:7px 10px;border-radius:8px}
+.hero{background:radial-gradient(circle at 85% 25%,#1d7b91 0,transparent 28%),linear-gradient(125deg,#102a43,#164e63);color:white;padding:74px 5% 64px}.heroInner{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.35fr .8fr;gap:45px;align-items:center}
+.kicker{color:#7ee8d8;font-weight:800;letter-spacing:1.2px;font-size:.85rem}.hero h1{font-size:clamp(2.2rem,5vw,4.2rem);line-height:1.18;margin:12px 0 18px}.hero p{font-size:1.1rem;color:#d5e7ef;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:12px 18px;text-decoration:none;font-weight:800;border:0;cursor:pointer}.btn.primary{background:var(--gold);color:#1d2b35}.btn.ghost{border:1px solid #c2dce8;color:white}.btn.blue{background:var(--blue);color:white}.btn.light{background:#e7f5f5;color:#07515a}
+.heroCard{background:#ffffff12;border:1px solid #ffffff32;border-radius:20px;padding:24px;backdrop-filter:blur(4px)}.heroCard h3{margin:0 0 12px}.quick{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid #ffffff24}.quick:last-child{border:0}.quick b{font-size:1.05rem;color:#fff}.quick span{display:block;color:#c9e1eb;font-size:.88rem}
+.notice{max-width:1180px;margin:24px auto 0;padding:15px 18px;border-radius:12px;background:#fff5dc;border:1px solid #f3d58a;color:#654800}
+section{padding:64px 5%}.wrap{max-width:1180px;margin:auto}.sectionHead{max-width:720px;margin-bottom:28px}.eyebrow{color:var(--blue);font-weight:900;font-size:.82rem;letter-spacing:1px}.sectionHead h2{font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.25;margin:8px 0 12px;color:var(--navy)}.sectionHead p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 8px 25px #12344a08}.icon{width:44px;height:44px;border-radius:12px;background:#e1f5f2;color:#087c71;display:grid;place-items:center;font-size:1.3rem;font-weight:900}.card h3{margin:13px 0 7px;color:var(--navy)}.card p{color:var(--muted);margin:0 0 15px}.card a{font-weight:800;text-decoration:none}.card a:hover{text-decoration:underline}
+.band{background:#eaf2f7}.twoCol{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.steps{padding:0;list-style:none;counter-reset:step}.steps li{counter-increment:step;position:relative;padding:0 0 22px 54px}.steps li:before{content:counter(step);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;background:var(--blue);color:white;display:grid;place-items:center;font-weight:900}.steps strong{display:block;color:var(--navy);margin-bottom:3px}.steps span{color:var(--muted)}
+.reportBox{background:white;border:1px solid var(--line);border-radius:18px;padding:26px}.reportBox h3{margin-top:0;color:var(--navy)}.field{margin:14px 0}.field label{display:block;font-weight:800;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;padding:12px;border:1px solid #b8c9d5;border-radius:9px;font:inherit;background:#fff}.field textarea{min-height:105px;resize:vertical}.disabledNote{background:#fff0f0;border:1px solid #e7b5b5;color:#7e2020;border-radius:10px;padding:13px;margin-bottom:15px}
+.linkList{display:grid;gap:12px}.official{display:flex;justify-content:space-between;gap:15px;align-items:center;background:white;border:1px solid var(--line);padding:17px 19px;border-radius:12px;text-decoration:none;color:var(--ink)}.official strong{display:block;color:var(--navy)}.official small{color:var(--muted)}.official .arrow{font-size:1.4rem;color:var(--blue)}
+details{background:white;border:1px solid var(--line);border-radius:12px;padding:15px 18px;margin:10px 0}summary{font-weight:850;cursor:pointer;color:var(--navy)}details p{color:var(--muted);margin-bottom:0}
+footer{background:#091b2b;color:#d2e1e9;padding:40px 5% 24px}.footGrid{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.footGrid h3,.footGrid h4{color:white}.footGrid a{color:#bdece5}.copyright{max-width:1180px;margin:28px auto 0;border-top:1px solid #ffffff24;padding-top:18px;font-size:.86rem;color:#a9c0cd}
+.tag{display:inline-block;background:#e5f5f3;color:#08766c;border-radius:30px;padding:5px 10px;font-size:.78rem;font-weight:900}
+@media(max-width:850px){.heroInner,.twoCol{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero{padding-top:48px}.heroCard{max-width:620px}}
+@media(max-width:650px){.topbar{justify-content:center;text-align:center}.headrow{flex-wrap:wrap}.menuBtn{display:block}nav{display:none;width:100%;padding-top:10px}nav.open{display:flex;flex-direction:column;align-items:flex-start}nav a{padding:5px 0}.grid,.footGrid{grid-template-columns:1fr}section{padding:46px 5%}.hero h1{font-size:2.4rem}.official{align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="topbar"><span>জনসচেতনতা • অপরাধ প্রতিরোধ • আইনি সহায়তার পথনির্দেশ</span><span>জরুরি বিপদে সরকারি জরুরি সেবা: <strong>৯৯৯</strong></span></div>
+<header><div class="headrow">
+<a class="brand" href="#home" aria-label="Crime BD হোম"><span class="logo">C·BD</span><span><strong>Crime BD</strong><small>অপরাধ প্রতিরোধ ও আইনি সহায়তা</small></span></a>
+<button class="menuBtn" id="menuBtn" aria-expanded="false" aria-controls="nav">☰ মেনু</button>
+<nav id="nav"><a href="#about">আমাদের লক্ষ্য</a><a href="#help">অভিযোগের পথ</a><a href="#corruption">দুর্নীতি</a><a href="#safety">নিরাপত্তা</a><a href="#faq">প্রশ্নোত্তর</a></nav>
+</div></header>
+<main id="home">
+<section class="hero"><div class="heroInner">
+<div><div class="kicker">সচেতন নাগরিক • নিরাপদ সমাজ</div><h1>অপরাধের বিরুদ্ধে<br>সচেতন হোন, নিরাপদ থাকুন।</h1><p>Crime BD হলো অপরাধ প্রতিরোধ, নাগরিক সচেতনতা এবং সঠিক সরকারি অভিযোগ-চ্যানেল খুঁজে পেতে সহায়ক একটি স্বাধীন তথ্যভিত্তিক উদ্যোগ।</p><div class="actions"><a class="btn primary" href="#help">কোথায় অভিযোগ করবেন?</a><a class="btn ghost" href="#safety">নিজেকে সুরক্ষিত রাখুন</a></div></div>
+<div class="heroCard"><h3>দ্রুত সহায়তার পথ</h3>
+<div class="quick"><div>🚨</div><div><b>জরুরি বিপদ — ৯৯৯</b><span>তাৎক্ষণিক পুলিশ, ফায়ার সার্ভিস বা অ্যাম্বুলেন্স সহায়তার জন্য।</span></div></div>
+<div class="quick"><div>⚖️</div><div><b>দুর্নীতির অভিযোগ — দুদক ১০৬</b><span>দুর্নীতি দমন কমিশনের সরকারি অভিযোগ হটলাইন।</span></div></div>
+<div class="quick"><div>🏛️</div><div><b>সরকারি সেবা নিয়ে অভিযোগ — GRS</b><span>সরকারি সেবা-সংক্রান্ত অভিযোগের সরকারি প্ল্যাটফর্ম।</span></div></div>
+</div></div>
+<div class="notice"><strong>গুরুত্বপূর্ণ:</strong> Crime BD কোনো সরকারি সংস্থা নয়। এই ওয়েবসাইটে এখনো ব্যক্তিগত অভিযোগ বা প্রমাণ জমা দেওয়ার নিরাপদ সার্ভার চালু নেই। এখানে কোনো গোপন নথি, পরিচয়পত্র, ছবি, ভিডিও বা ব্যক্তিগত তথ্য আপলোড করবেন না। নিচের সরকারি চ্যানেল ব্যবহার করুন।</div>
+</section>
+<section id="about"><div class="wrap"><div class="sectionHead"><div class="eyebrow">আমাদের লক্ষ্য</div><h2>সঠিক তথ্য, দায়িত্বশীল নাগরিকতা</h2><p>আমরা চাই মানুষ নিরাপদে তথ্য খুঁজে পাক, ঝুঁকি বুঝে পদক্ষেপ নিক এবং যথাযথ কর্তৃপক্ষের কাছে অভিযোগ জানাতে পারে।</p></div>
+<div class="grid">
+<article class="card"><div class="icon">✓</div><h3>প্রতিরোধমূলক সচেতনতা</h3><p>প্রতারণা, হয়রানি, সাইবার অপরাধ ও ব্যক্তিগত নিরাপত্তা সম্পর্কে সচেতনতা বাড়ানো।</p><a href="#safety">নিরাপত্তা নির্দেশনা →</a></article>
+<article class="card"><div class="icon">⚖</div><h3>আইনি সহায়তার পথনির্দেশ</h3><p>কোন ধরনের সমস্যায় কোন সরকারি বা স্বীকৃত সহায়তা-চ্যানেল প্রযোজ্য, তা খুঁজে পেতে সহায়তা।</p><a href="#help">সহায়তার পথ দেখুন →</a></article>
+<article class="card"><div class="icon">◎</div><h3>দায়িত্বশীল প্রতিবেদন</h3><p>অভিযোগকে প্রমাণিত অপরাধ হিসেবে প্রকাশ নয়; যাচাই, ন্যায্যতা ও ব্যক্তিগত গোপনীয়তাকে গুরুত্ব দেওয়া।</p><a href="#safety">গোপনীয়তা ও নিরাপত্তা →</a></article>
+</div></div></section>
+<section id="help" class="band"><div class="wrap"><div class="sectionHead"><div class="eyebrow">সরকারি অভিযোগের পথ</div><h2>সমস্যার ধরন অনুযায়ী সঠিক জায়গায় যান</h2><p>অভিযোগ জানানোর আগে ঘটনার তারিখ, স্থান এবং নিজের জানা তথ্য আলাদা করে লিখে রাখুন। নিরাপদ হলে প্রমাণ সংরক্ষণ করুন; আইন ভেঙে বা ঝুঁকি নিয়ে প্রমাণ সংগ্রহ করবেন না।</p></div>
+<div class="linkList">
+<a class="official" href="https://www.police.gov.bd/" target="_blank" rel="noopener"><span><strong>জরুরি বিপদ — জাতীয় জরুরি সেবা ৯৯৯</strong><small>তাৎক্ষণিক বিপদে ফোন করুন। Crime BD জরুরি সেবা নয়।</small></span><span class="arrow">↗</span></a>
+<a class="official" href="https://acc.org.bd/" target="_blank" rel="noopener"><span><strong>দুর্নীতি দমন কমিশন (দুদক) — হটলাইন ১০৬</strong><small>ঘুষ, দুর্নীতি বা দুদকের আওতাভুক্ত অভিযোগের জন্য সরকারি নির্দেশনা দেখুন।</small></span><span class="arrow">↗</span></a>
+<a class="official" href="https://www.grs.gov.bd/" target="_blank" rel="noopener"><span><strong>সরকারি অভিযোগ প্রতিকার ব্যবস্থা (GRS)</strong><small>সরকারি দপ্তরের সেবা-সংক্রান্ত অভিযোগ; সাইটে অজ্ঞাতনামা অভিযোগের বিকল্পও রয়েছে।</small></span><span class="arrow">↗</span></a>
+<a class="official" href="https://www.grs.gov.bd/complainWithoutLogin.do" target="_blank" rel="noopener"><span><strong>GRS — অভিযোগ দাখিল পৃষ্ঠা</strong><small>অভিযোগের ধরন, নিয়ম ও প্রয়োজনীয় তথ্য দেখে নিন।</small></span><span class="arrow">↗</span></a>
+</div>
+</div></section>
+<section id="corruption"><div class="wrap twoCol">
+<div><div class="sectionHead"><div class="eyebrow">ঘুষ ও দুর্নীতি</div><h2>অভিযোগ জানানোর আগে যা প্রস্তুত করবেন</h2><p>দুদকের সরকারি ওয়েবসাইটে প্রকাশিত নির্দেশনা অনুযায়ী অভিযোগে ঘটনার বিবরণ, সময়কাল এবং সমর্থনকারী তথ্যের বিবরণ দেওয়া সহায়ক হতে পারে। নিয়ম ও গ্রহণযোগ্যতা সরাসরি কর্তৃপক্ষের কাছ থেকে যাচাই করুন।</p></div>
+<ol class="steps">
+<li><strong>ঘটনা স্পষ্টভাবে লিখুন</strong><span>কী ঘটেছে, কখন এবং কোথায়—অনুমান নয়, নিজের জানা তথ্য দিন।</span></li>
+<li><strong>প্রমাণ নিরাপদে রাখুন</strong><span>মূল ফাইল অক্ষত রাখুন। অনুমতি ছাড়া কারও ব্যক্তিগত তথ্য প্রকাশ করবেন না।</span></li>
+<li><strong>সরকারি চ্যানেল ব্যবহার করুন</strong><span>দুদকের হটলাইন ১০৬ বা তাদের অফিসিয়াল সাইটের নির্দেশনা দেখুন।</span></li>
+<li><strong>নিজের নিরাপত্তা বিবেচনা করুন</strong><span>প্রতিশোধ বা হুমকির আশঙ্কা থাকলে একা মুখোমুখি হবেন না; জরুরি ঝুঁকিতে ৯৯৯-এ যোগাযোগ করুন।</span></li>
+</ol><p><a class="btn blue" href="https://acc.org.bd/" target="_blank" rel="noopener">দুদকের সরকারি ওয়েবসাইট ↗</a></p></div>
+<div class="reportBox"><span class="tag">সচেতনতা সহায়ক</span><h3>ঘটনার নোট তৈরি করুন</h3><p>নিচের ফর্মটি শুধু আপনার ডিভাইসে নোট তৈরির জন্য। এটি Crime BD-তে কোনো তথ্য পাঠায় না বা সংরক্ষণ করে না। সংবেদনশীল তথ্য লিখবেন না।</p>
+<div class="field"><label for="incident">ঘটনার ধরন</label><select id="incident"><option>ঘুষ</option><option>সরকারি অর্থের অপব্যবহার</option><option>নিয়োগ বা দরপত্রে অনিয়ম</option><option>অন্য ধরনের দুর্নীতির অভিযোগ</option></select></div>
+<div class="field"><label for="place">ঘটনার স্থান (সাধারণ বিবরণ)</label><input id="place" maxlength="120" placeholder="যেমন: উপজেলা/দপ্তরের নাম"></div>
+<div class="field"><label for="when">ঘটনার তারিখ/সময়</label><input id="when" type="text" maxlength="80" placeholder="যতটা নিশ্চিত জানেন"></div>
+<div class="field"><label for="notes">ঘটনার সংক্ষিপ্ত বিবরণ (ব্যক্তিগত তথ্য ছাড়া)</label><textarea id="notes" maxlength="1000" placeholder="নিজের জানা তথ্য লিখুন; অপ্রমাণিত অভিযোগ অনলাইনে প্রকাশ করবেন না।"></textarea></div>
+<button class="btn blue" id="makeNote" type="button">নোট ডাউনলোড করুন</button> <a class="btn light" href="https://acc.org.bd/" target="_blank" rel="noopener">দুদকে যাওয়ার পথ ↗</a>
+<p id="noteStatus" aria-live="polite" style="font-size:.9rem;color:#627586"></p>
+</div>
+</div></section>
+<section id="safety" class="band"><div class="wrap"><div class="sectionHead"><div class="eyebrow">ব্যক্তিগত নিরাপত্তা</div><h2>নিজেকে এবং অন্যকে সুরক্ষিত রাখুন</h2></div>
+<div class="grid">
+<article class="card"><div class="icon">🔒</div><h3>গোপন তথ্য প্রকাশ করবেন না</h3><p>জাতীয় পরিচয়পত্র, ঠিকানা, ফোন নম্বর, পাসওয়ার্ড, ব্যাংক তথ্য বা অপ্রাপ্তবয়স্কের পরিচয় প্রকাশ করবেন না।</p></article>
+<article class="card"><div class="icon">📁</div><h3>প্রমাণ অক্ষত রাখুন</h3><p>মূল ছবি/বার্তা/রসিদ সম্পাদনা না করে নিরাপদ স্থানে রাখুন। সন্দেহজনক লিংক খুলবেন না।</p></article>
+<article class="card"><div class="icon">⚠</div><h3>অভিযোগ মানেই প্রমাণ নয়</h3><p>যাচাইয়ের আগে কারও নাম-ছবি দিয়ে অপরাধী হিসেবে প্রচার করবেন না। এতে নিরাপত্তা ও আইনি ঝুঁকি তৈরি হতে পারে।</p></article>
+</div></div></section>
+<section id="faq"><div class="wrap"><div class="sectionHead"><div class="eyebrow">সাধারণ প্রশ্ন</div><h2>জেনে নিন</h2></div>
+<details><summary>Crime BD কি সরকারি ওয়েবসাইট?</summary><p>না। Crime BD একটি স্বাধীন তথ্যভিত্তিক উদ্যোগ; এটি পুলিশ, দুদক, আদালত বা সরকারের কোনো দপ্তর নয়।</p></details>
+<details><summary>এই সাইটে কি আমি অভিযোগ জমা দিতে পারি?</summary><p>এখনো না। নিরাপদ সার্ভার, সীমিত অ্যাডমিন অ্যাক্সেস, গোপনীয়তা নীতি এবং নিরাপদ ফাইল ব্যবস্থাপনা চালু না হওয়া পর্যন্ত এই সাইটে অভিযোগ বা প্রমাণ জমা দেওয়ার ব্যবস্থা নেই। আপাতত সংশ্লিষ্ট সরকারি চ্যানেল ব্যবহার করুন।</p></details>
+<details><summary>অজ্ঞাতনামা অভিযোগ কি সব ক্ষেত্রে গোপন থাকবে?</summary><p>কোনো অনলাইন ব্যবস্থায় সম্পূর্ণ গোপনীয়তা নিশ্চিত ধরে নেওয়া উচিত নয়। সরকারি পোর্টালে কী তথ্য প্রয়োজন এবং কী সীমাবদ্ধতা আছে, তা জমা দেওয়ার আগে পড়ুন।</p></details>
+<details><summary>জরুরি বিপদে কী করব?</summary><p>Crime BD-তে অপেক্ষা করবেন না। বাংলাদেশে জাতীয় জরুরি সেবা ৯৯৯-এ যোগাযোগ করুন।</p></details>
+</div></section>
+</main>
+<footer><div class="footGrid">
+<div><h3>Crime BD</h3><p>অপরাধ প্রতিরোধ ও আইনি সহায়তার পথনির্দেশ। লক্ষ্য: সচেতনতা, নিরাপত্তা এবং দায়িত্বশীল নাগরিকতা।</p><p><strong>স্বাধীন উদ্যোগ — সরকারি সংস্থা নয়।</strong></p></div>
+<div><h4>সরকারি সহায়তা</h4><p><a href="https://www.police.gov.bd/" target="_blank" rel="noopener">বাংলাদেশ পুলিশ</a></p><p><a href="https://acc.org.bd/" target="_blank" rel="noopener">দুর্নীতি দমন কমিশন</a></p><p><a href="https://www.grs.gov.bd/" target="_blank" rel="noopener">সরকারি অভিযোগ প্রতিকার ব্যবস্থা</a></p></div>
+<div><h4>গুরুত্বপূর্ণ সতর্কতা</h4><p>এই সাইটে অভিযোগ যাচাই বা আইনি প্রতিনিধিত্বের নিশ্চয়তা দেওয়া হয় না। নির্দিষ্ট আইনি পরামর্শের জন্য যোগ্য আইনজীবী বা সরকারি সহায়তা-চ্যানেলের সঙ্গে যোগাযোগ করুন।</p></div>
+</div><div class="copyright">© <span id="year"></span> Crime BD • তথ্য যাচাই করে ব্যবহার করুন। কোনো ব্যক্তির বিরুদ্ধে অভিযোগকে যাচাই ছাড়া সত্য বলে প্রকাশ করা হবে না।</div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('nav');
+menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('makeNote').addEventListener('click',()=>{
+ const type=document.getElementById('incident').value,place=document.getElementById('place').value.trim(),when=document.getElementById('when').value.trim(),notes=document.getElementById('notes').value.trim();
+ if(!place||!when||!notes){document.getElementById('noteStatus').textContent='অনুগ্রহ করে স্থান, সময় এবং সংক্ষিপ্ত বিবরণ পূরণ করুন।';return;}
+ const content='Crime BD — ব্যক্তিগত ঘটনার নোট (শুধু আপনার ডিভাইসে তৈরি)\\n\\nধরন: '+type+'\\nস্থান: '+place+'\\nসময়: '+when+'\\nবিবরণ: '+notes+'\\n\\nসতর্কতা: এই নোট Crime BD-তে পাঠানো হয়নি। সরকারি অভিযোগের নিয়ম ও গ্রহণযোগ্যতা সংশ্লিষ্ট কর্তৃপক্ষের কাছে যাচাই করুন।';
+ const blob=new Blob([content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download='crime-bd-personal-note.txt';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
+ document.getElementById('noteStatus').textContent='নোটটি আপনার ডিভাইসে ডাউনলোড হয়েছে; Crime BD-তে কোনো তথ্য পাঠানো হয়নি।';
+});
+</script>
+</body></html>
